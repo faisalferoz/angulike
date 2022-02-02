@@ -20,7 +20,8 @@
                               $window.FB.init({
                                   appId: $rootScope.facebookAppId,
                                   xfbml: true,
-                                  version: 'v2.0'
+                                  version: 'v12.0',
+                                  autoLogAppEvents: true
                               });
                               renderLikeButton();
                           });
